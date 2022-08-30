@@ -12,6 +12,7 @@
 		4029C71828BDF01200E571C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4029C71728BDF01200E571C8 /* Assets.xcassets */; };
 		4029C71B28BDF01200E571C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4029C71A28BDF01200E571C8 /* Preview Assets.xcassets */; };
 		4029C72228BDF0DA00E571C8 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = 4029C72128BDF0DA00E571C8 /* samplecharacter.json */; };
+		4029C72428BDF80200E571C8 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029C72328BDF80200E571C8 /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4029C71728BDF01200E571C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4029C71A28BDF01200E571C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4029C72128BDF0DA00E571C8 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
+		4029C72328BDF80200E571C8 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				4029C71328BDF00F00E571C8 /* BB_QuotesApp.swift */,
 				4029C71528BDF00F00E571C8 /* ContentView.swift */,
+				4029C72328BDF80200E571C8 /* Quote.swift */,
 				4029C72128BDF0DA00E571C8 /* samplecharacter.json */,
 				4029C71728BDF01200E571C8 /* Assets.xcassets */,
 				4029C71928BDF01200E571C8 /* Preview Content */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4029C71628BDF00F00E571C8 /* ContentView.swift in Sources */,
+				4029C72428BDF80200E571C8 /* Quote.swift in Sources */,
 				4029C71428BDF00F00E571C8 /* BB_QuotesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
