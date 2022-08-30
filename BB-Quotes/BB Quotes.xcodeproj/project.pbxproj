@@ -16,6 +16,7 @@
 		4029C72628BE0D4100E571C8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029C72528BE0D4100E571C8 /* Character.swift */; };
 		4029C72828BE123100E571C8 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029C72728BE123100E571C8 /* FetchController.swift */; };
 		4029C72A28BE1C7E00E571C8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029C72928BE1C7E00E571C8 /* ViewModel.swift */; };
+		4029C72C28BE246800E571C8 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029C72B28BE246800E571C8 /* QuoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		4029C72528BE0D4100E571C8 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		4029C72728BE123100E571C8 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 		4029C72928BE1C7E00E571C8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4029C72B28BE246800E571C8 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				4029C71328BDF00F00E571C8 /* BB_QuotesApp.swift */,
 				4029C71528BDF00F00E571C8 /* ContentView.swift */,
+				4029C72B28BE246800E571C8 /* QuoteView.swift */,
 				4029C72928BE1C7E00E571C8 /* ViewModel.swift */,
 				4029C72728BE123100E571C8 /* FetchController.swift */,
 				4029C72328BDF80200E571C8 /* Quote.swift */,
@@ -157,6 +160,7 @@
 				4029C72428BDF80200E571C8 /* Quote.swift in Sources */,
 				4029C71428BDF00F00E571C8 /* BB_QuotesApp.swift in Sources */,
 				4029C72828BE123100E571C8 /* FetchController.swift in Sources */,
+				4029C72C28BE246800E571C8 /* QuoteView.swift in Sources */,
 				4029C72A28BE1C7E00E571C8 /* ViewModel.swift in Sources */,
 				4029C72628BE0D4100E571C8 /* Character.swift in Sources */,
 			);
