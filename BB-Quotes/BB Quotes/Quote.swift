@@ -9,12 +9,12 @@ import Foundation
 
 struct Quote: Codable {
     let quote: String
-    let auther: String
+    let author: String
     let series: String
     
     enum QuoteKeys: String, CodingKey {
         case quote
-        case auther
+        case author
         case series
     }
     
@@ -23,7 +23,7 @@ struct Quote: Codable {
         let quoteContainer = try container.nestedContainer(keyedBy: QuoteKeys.self)
         
         quote = try quoteContainer.decode(String.self, forKey: .quote)
-        auther = try quoteContainer.decode(String.self, forKey: .auther)
+        author = try quoteContainer.decode(String.self, forKey: .author)
         series = try quoteContainer.decode(String.self, forKey: .series)
     }
 }

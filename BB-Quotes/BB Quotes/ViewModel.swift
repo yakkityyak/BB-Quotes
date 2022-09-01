@@ -34,17 +34,17 @@ class ViewModel: ObservableObject {
                 quote = try await controller.fetchQuote()
             }
             
-            var characterName = quote.auther
+            var characterName = quote.author
             
-            if quote.auther == "Gus Fring" {
+            if quote.author == "Gus Fring" {
                 characterName = "Gustavo Fring"
-            } else if quote.auther == "Hank Schrader" {
+            } else if quote.author == "Hank Schrader" {
                 characterName = "Henry Schrader"
-            } else if quote.auther == "Jimmy McGill" {
+            } else if quote.author == "Jimmy McGill" {
                 characterName = "Saul Goodman"
-            } else if quote.auther == "Kim Wexler" {
+            } else if quote.author == "Kim Wexler" {
                 characterName = "Kimberly Wexler"
-            } else if quote.auther == "Chuck McGill" {
+            } else if quote.author == "Chuck McGill" {
                 characterName = "Charles McGill"
             }
             
