@@ -33,6 +33,7 @@
 		4029C72928BE1C7E00E571C8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		4029C72B28BE246800E571C8 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		4029C72D28C0BBB800E571C8 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		4029C72F28C0C75F00E571C8 /* BB-Quotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BB-Quotes-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 		4029C71228BDF00F00E571C8 /* BB Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				4029C72F28C0C75F00E571C8 /* BB-Quotes-Info.plist */,
 				4029C71328BDF00F00E571C8 /* BB_QuotesApp.swift */,
 				4029C71528BDF00F00E571C8 /* ContentView.swift */,
 				4029C72B28BE246800E571C8 /* QuoteView.swift */,
@@ -298,6 +300,8 @@
 				DEVELOPMENT_TEAM = AW23H396XM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BB-Quotes-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -327,6 +331,8 @@
 				DEVELOPMENT_TEAM = AW23H396XM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BB-Quotes-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
